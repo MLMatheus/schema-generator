@@ -1,0 +1,62 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "type": "object",
+    "properties": {
+        "nome": {
+            "type": "string"
+        },
+        "sobrenome": {
+            "type": "string"
+        },
+        "sexo": {
+            "type": "string"
+        },
+        "idade": {
+            "type": "integer"
+        },
+        "altura": {
+            "type": "number"
+        },
+        "robes": {
+            "type": "array",
+            "itens": {
+                "type": "object"
+            }
+        },
+        "gosta_de": {
+            "type": "string"
+        },
+        "familiares": {
+            "type": "array",
+            "itens": {
+                "type": "object",
+                "properties": {
+                    "nome": {
+                        "type": "string"
+                    },
+                    "relacao": {
+                        "type": "string"
+                    }
+                },
+                "required": [
+                    "nome",
+                    "relacao"
+                ]
+            }
+        },
+        "nacionalidade": {
+            "type": "string"
+        }
+    },
+    "required": [
+        "nome",
+        "sobrenome",
+        "sexo",
+        "idade",
+        "altura",
+        "robes",
+        "gosta_de",
+        "familiares",
+        "nacionalidade"
+    ]
+}

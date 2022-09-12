@@ -1,0 +1,24 @@
+{
+    "nome": "Matheus",
+    "sobrenome": "Lima",
+    "sexo": "m",
+    "idade": 24,
+    "altura": 1.70,
+    "robes": [
+        "cantar",
+        "tocar",
+        "Andar de bicicleta"
+    ],
+    "gosta_de": "musica boa",
+    "familiares": [
+        {
+            "nome": "Maria Cineide",
+            "relacao": "mae"
+        },
+        {
+            "nome": "Romildo Izidio de Lima",
+            "relacao": "pai"
+        }
+    ],
+    "nacionalidade": "Brasil"
+}
