@@ -17,7 +17,7 @@
         "altura": {
             "type": "number"
         },
-        "robes": {
+        "hobs": {
             "type": "array",
             "itens": {
                 "type": "object"
@@ -46,6 +46,12 @@
         },
         "nacionalidade": {
             "type": "string"
+        },
+        "menor_de_18": {
+            "type": "boolean"
+        },
+        "salario": {
+            "type": "null"
         }
     },
     "required": [
@@ -54,9 +60,11 @@
         "sexo",
         "idade",
         "altura",
-        "robes",
+        "hobs",
         "gosta_de",
         "familiares",
-        "nacionalidade"
+        "nacionalidade",
+        "menor_de_18",
+        "salario"
     ]
 }
