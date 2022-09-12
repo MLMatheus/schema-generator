@@ -1,24 +1,26 @@
 {
-    "nome": "Matheus",
-    "sobrenome": "Lima",
+    "nome": "Teste",
+    "sobrenome": "Teste2",
     "sexo": "m",
-    "idade": 24,
-    "altura": 1.70,
-    "robes": [
+    "idade": 54,
+    "altura": 1.54,
+    "hobs": [
         "cantar",
         "tocar",
         "Andar de bicicleta"
     ],
-    "gosta_de": "musica boa",
+    "gosta_de": "Testar",
     "familiares": [
         {
-            "nome": "Maria Cineide",
+            "nome": "Mae",
             "relacao": "mae"
         },
         {
-            "nome": "Romildo Izidio de Lima",
+            "nome": "Pai",
             "relacao": "pai"
         }
     ],
-    "nacionalidade": "Brasil"
+    "nacionalidade": "Brasil",
+    "menor_de_18": false,
+    "salario": null
 }
