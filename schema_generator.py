@@ -42,7 +42,7 @@ def generate(
         if data_type(obj[key]) == 'object':
             dic2['type'] = 'object'
             dic2['properties'] = generate(obj[key])
-            dic2['required'] = [k for k in obj.keys()]
+            dic2['required'] = [k for k in obj[key].keys()]
         elif data_type(obj[key]) == 'array':
             dic2['type'] = 'array'
             dic2['itens'] = generate(obj[key], True)
